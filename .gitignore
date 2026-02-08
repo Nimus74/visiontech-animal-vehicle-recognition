@@ -1,0 +1,159 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ambiente Virtuale
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# IDE - PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# File OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Dataset e Dati
+data/cifar-10-batches-py/
+data/*.tar.gz
+data/*.zip
+*.h5
+*.hdf5
+
+# Output del Training
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+
+# Logs e Metriche
+logs/
+*.log
+wandb/
+mlruns/
+.neptune/
+
+# File Temporanei
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+
+# File di Configurazione Locale
+.env
+.env.local
+config.local.yaml
+*.local.yaml
+
+# File di Test Coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.hypothesis/
+
+# File Streamlit
+.streamlit/secrets.toml
+
+# File macOS
+.AppleDouble
+.LSOverride
+Icon
+
+# File Windows
+$RECYCLE.BIN/
+*.lnk
+
+# File Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# File Large (opzionale - decommenta se vuoi escludere file grandi)
+# *.zip
+# *.tar.gz
+# *.tar
+
+# File di Backup
+*.bak
+*.backup
+*.old
+
+# File di Output Specifici
+*.png
+*.jpg
+*.jpeg
+# Nota: Le immagini in outputs/ sono già escluse dalla regola outputs/
+# Se vuoi includere alcune immagini (es. README), aggiungi eccezioni:
+# !README_images/
+# !docs/images/
+
+# File di Configurazione IDE Specifici
+*.sublime-project
+*.sublime-workspace
+
+# File di Database
+*.db
+*.sqlite
+*.sqlite3
+
+# File di Cache Python
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# File di Jupyter
+.jupyter/
+
+# File di Profiling
+*.prof
+*.lprof

@@ -1,0 +1,27 @@
+seed: 42
+
+data:
+  root_dir: "data"
+  batch_size: 128
+  num_workers: 4
+  val_split_ratio: 0.2  # 20% del training set diventa validation set (80% train, 20% val)
+
+train:
+  epochs: 20
+  lr: 0.001
+  weight_decay: 0.0001
+  device: "auto"   # auto, cpu, cuda, mps
+  log_every: 100
+  early_stopping_patience: 5  # Numero di epoche senza miglioramento prima di fermarsi (None per disabilitare)
+
+model:
+  name: "SimpleCNN"
+  dropout: 0.25
+
+outputs:
+  base_dir: "outputs"
+  checkpoint_path: "outputs/checkpoints/best.pt"
+  metrics_dir: "outputs/metrics"
+  misclassified_dir: "outputs/misclassified"
+  plots_dir: "outputs/plots"  # Directory per salvare i grafici
+  max_misclassified_images: 200  # Numero massimo di immagini errate da salvare
