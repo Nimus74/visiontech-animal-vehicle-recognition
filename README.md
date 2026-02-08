@@ -1,4 +1,4 @@
-# VisionTech Solutions — Animal vs Vehicle Recognition
+# Image Recognition — Animal vs Vehicle Recognition
 
 Sistema di riconoscimento immagini basato su **Convolutional Neural Network (CNN)** per classificare immagini in **Animale** vs **Veicolo**, con l'obiettivo di supportare sistemi di monitoraggio urbano e prevenzione incidenti (es. segnaletica elettronica di avviso).
 
