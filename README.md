@@ -365,7 +365,7 @@ model:
 - **Dataset**: CIFAR-10 è un dataset sintetico, risultati reali possono variare
 - **Classi**: Solo 2 classi (Animal/Vehicle), non distingue tipi specifici
 
-### 6. Interfaccia Web Streamlit (Estensione opzionale)
+## 6. Interfaccia Web Streamlit (Estensione opzionale)
 
 La consegna del progetto prevede lo sviluppo del modello di classificazione, la valutazione delle prestazioni e l’analisi dei risultati.  
 In aggiunta, è stata sviluppata un’interfaccia web basata su **Streamlit** come **estensione opzionale**, con l’obiettivo di migliorare la fruibilità del sistema e consentire una dimostrazione interattiva delle funzionalità implementate.
