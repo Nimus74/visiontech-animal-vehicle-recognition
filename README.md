@@ -365,32 +365,48 @@ model:
 - **Dataset**: CIFAR-10 è un dataset sintetico, risultati reali possono variare
 - **Classi**: Solo 2 classi (Animal/Vehicle), non distingue tipi specifici
 
-### 6. Interfaccia Web Streamlit
+### 6. Interfaccia Web Streamlit (Estensione opzionale)
 
-Per avviare l'interfaccia web interattiva:
+La consegna del progetto prevede lo sviluppo del modello di classificazione, la valutazione delle prestazioni e l’analisi dei risultati.  
+In aggiunta, è stata sviluppata un’interfaccia web basata su **Streamlit** come **estensione opzionale**, con l’obiettivo di migliorare la fruibilità del sistema e consentire una dimostrazione interattiva delle funzionalità implementate.
+
+L’interfaccia consente di utilizzare il modello addestrato senza ricorrere a notebook o riga di comando, risultando particolarmente utile in fase di presentazione, validazione e analisi esplorativa dei risultati.
+
+#### Avvio dell’interfaccia
 
 ```bash
 # Assicurati di aver installato streamlit
 pip install streamlit
 
-# Avvia l'app
+# Avvia l'applicazione web
 streamlit run app.py
 ```
 
-L'app si aprirà automaticamente nel browser su `http://localhost:8501`
+# L’applicazione sarà disponibile all’indirizzo:
+http://localhost:8501
 
-**Funzionalità dell'interfaccia**:
-- 🔍 **Classificazione Immagini**: Upload immagini, webcam o esempi dal test set
-- 📊 **Dashboard Metriche**: Visualizzazione di accuracy, precision, recall, F1, confusion matrix e training curves
-- 🔍 **Analisi Errori**: Esplorazione delle immagini classificate erroneamente e pattern di confusione
-- ℹ️ **Informazioni**: Documentazione completa del progetto
+**Funzionalità principali**
+ - Classificazione delle immagini
+ - Inferenza su immagini caricate dall’utente, immagini di esempio o stream da webcam, con visualizzazione immediata della predizione (Animale / Veicolo).
+ - Dashboard delle metriche
+ - Visualizzazione delle principali metriche di valutazione del modello:
+    - Accuracy
+    - Precision
+	- Recall
+	- F1-score
+	- Confusion Matrix
+ - Inclusa la visualizzazione delle curve di training (loss e accuracy).
+ - Analisi degli errori
+ - Esplorazione delle immagini classificate erroneamente, con identificazione dei pattern di confusione più frequenti tra le categorie.
+ - Sezione informativa
+ - Descrizione del progetto, dell’architettura del modello e delle principali scelte progettuali.
 
-**Caratteristiche UX**:
-- Interfaccia moderna e intuitiva
-- Visualizzazione interattiva dei risultati
-- Grafici e metriche in tempo reale
-- Supporto per upload immagini e webcam
-- Layout responsive
+**Caratteristiche dell’interfaccia** 
+ - Interfaccia intuitiva orientata all’analisi dei dati
+ - Visualizzazione interattiva dei risultati e delle metriche
+ - Supporto per inferenza su immagini singole e flussi video
+ - Layout responsive, adatto a demo e presentazioni
+
 
 ## 📄 Licenza
 
