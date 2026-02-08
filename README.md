@@ -2,16 +2,6 @@
 
 Sistema di riconoscimento immagini basato su **Convolutional Neural Network (CNN)** per classificare immagini in **Animale** vs **Veicolo**, con l'obiettivo di supportare sistemi di monitoraggio urbano e prevenzione incidenti (es. segnaletica elettronica di avviso).
 
-## 📋 Indice
-
-- [Obiettivo del Progetto](#obiettivo-del-progetto)
-- [Dataset](#dataset)
-- [Architettura del Modello](#architettura-del-modello)
-- [Installazione](#installazione)
-- [Struttura del Progetto](#struttura-del-progetto)
-- [Utilizzo](#utilizzo)
-- [Metriche e Valutazione](#metriche-e-valutazione)
-- [Risultati](#risultati)
 
 ## 🎯 Obiettivo del Progetto
 
@@ -92,7 +82,12 @@ SimpleCNN:
 
 Il modo più semplice per iniziare è usare **Google Colab**, che offre GPU gratuite!
 
-1. Apri il notebook `notebooks/image_recognition.ipynb` su Google Colab
+1. Apri ed esegui il notebook direttamente in Google Colab:
+
+Colab: https://colab.research.google.com/github/Nimus74/visiontech-animal-vehicle-recognition/blob/main/notebooks/image_recognition.ipynb
+
+Repository: https://github.com/Nimus74/visiontech-animal-vehicle-recognition
+
 2. Segui le istruzioni nel notebook
 3. Tutto è già configurato e pronto all'uso!
 
@@ -166,7 +161,7 @@ visiontech-animal-vehicle-recognition/
 │   ├── visualize.py          # Generazione grafici
 │   ├── utils.py              # Funzioni di utilità
 │   └── streamlit_utils.py    # Funzioni helper per Streamlit
-├── app.py                     # Interfaccia web Streamlit (NUOVO)
+├── app.py                     # Interfaccia web Streamlit (ADD-ON)
 ├── notebooks/
 │   └── image_recognition.ipynb  # Notebook Jupyter per Google Colab
 ├── outputs/                   # Risultati generati (creato automaticamente)
