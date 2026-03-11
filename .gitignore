@@ -126,15 +126,6 @@ $RECYCLE.BIN/
 *.backup
 *.old
 
-# File di Output Specifici
-*.png
-*.jpg
-*.jpeg
-# Nota: Le immagini in outputs/ sono già escluse dalla regola outputs/
-# Se vuoi includere alcune immagini (es. README), aggiungi eccezioni:
-# !README_images/
-# !docs/images/
-
 # File di Configurazione IDE Specifici
 *.sublime-project
 *.sublime-workspace
