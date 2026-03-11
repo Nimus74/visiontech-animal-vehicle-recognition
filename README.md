@@ -112,17 +112,24 @@ Typical model performance:
 
 | Metric | Score |
 |------|------|
-| Accuracy | ~85-90% |
-| Precision | ~85-90% |
-| Recall | ~85-90% |
-| F1-Score | ~85-90% |
+| Accuracy | ~85–90% |
+| Precision | ~85–90% |
+| Recall | ~85–90% |
+| F1-Score | ~85–90% |
 
-Evaluation includes:
+## Training Curves
 
-- Confusion Matrix
-- Classification Report
-- Training curves
-- Error analysis
+![Training Curves](images/training_curves.png)
+
+## Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+The evaluation pipeline also includes:
+
+- classification report
+- error analysis on misclassified images
+- training history visualization
 
 ---
 
