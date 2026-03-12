@@ -268,12 +268,13 @@ http://localhost:8501
 
 ---
 
-# Author
+## Author
 
-**Francesco Scarano**
+**Francesco Scarano**  
+Senior IT Manager | AI Engineering | Data & Digital Solutions
 
-Senior IT Manager  
-AI Engineering | Data & Digital Solutions
-
-GitHub  
+GitHub:  
 https://github.com/Nimus74
+
+LinkedIn:  
+https://www.linkedin.com/in/francescoscarano/
